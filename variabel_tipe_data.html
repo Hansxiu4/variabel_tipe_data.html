@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabel dan Tipe Data</title>
+    <script>
+        // Deklarasi variabel
+        var nama = "Farhan Hidayat";           // String
+        var umur = 18;                   // Number
+        var mahasiswa = true;            // Boolean
+        var alamat = null;               // Null
+        var hobi = ["Membaca", "Bersepeda", "Berenang"]; // Array (Object)
+        var pekerjaan = {                // Object
+            pekerjaan: "Pengembangan",
+            pengalaman: "5 tahun"
+        };
+
+        // Operasi dasar
+        var infoUmur = "Umur saya adalah " + umur + " tahun.";
+        var statusMahasiswa = mahasiswa ? "Saya seorang mahasiswa." : "Saya bukan seorang mahasiswa.";
+        var daftarHobi = "Hobi saya: " + hobi.join(", ") + ".";
+        var detailPekerjaan = "Pekerjaan saya adalah " + pekerjaan.pekerjaan + " dengan pengalaman " + pekerjaan.pengalaman + ".";
+
+        // Menampilkan hasil
+        console.log("Nama: " + nama);
+        console.log(infoUmur);
+        console.log(statusMahasiswa);
+        console.log(daftarHobi);
+        console.log(detailPekerjaan);
+
+        alert("Nama: " + nama + "\n" + infoUmur + "\n" + statusMahasiswa + "\n" + daftarHobi + "\n" + detailPekerjaan);
+
+        document.write("<h1>Informasi Pengguna</h1>");
+        document.write("<p>Nama: " + nama + "</p>");
+        document.write("<p>" + infoUmur + "</p>");
+        document.write("<p>" + statusMahasiswa + "</p>");
+        document.write("<p>" + daftarHobi + "</p>");
+        document.write("<p>" + detailPekerjaan + "</p>");
+    </script>
+</head>
+<body>
+</body>
+</html>
